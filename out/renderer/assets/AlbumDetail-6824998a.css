@@ -1,0 +1,92 @@
+.albumdetail {
+  padding: 1% 2%;
+}
+.albumdetail .header {
+  display: flex;
+  color: #334155;
+}
+.albumdetail .header .img {
+  flex: 1.5;
+}
+.albumdetail .header .img img {
+  border-radius: 0.5rem;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.albumdetail .header .title {
+  margin-left: 1%;
+  flex: 8.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.albumdetail .header .title .t {
+  font-size: 0.75rem;
+}
+.albumdetail .list .tit {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #94A3B8;
+}
+.albumdetail .list .tit .name {
+  flex: 4;
+}
+.albumdetail .list .tit .singer {
+  flex: 2;
+}
+.albumdetail .list .tit .time {
+  flex: 1;
+}
+.albumdetail .list .song {
+  display: flex;
+  font-size: 0.75rem;
+  padding: 1% 0;
+}
+.albumdetail .list .song .name {
+  flex: 4;
+  display: flex;
+}
+.albumdetail .list .song .name .n {
+  flex: 5;
+}
+.albumdetail .list .song .name .icon {
+  flex: 1;
+  margin-right: 5%;
+}
+.albumdetail .list .song .name .icon svg path {
+  fill: #94A3B8;
+}
+.albumdetail .list .song .name .icon svg:hover path {
+  fill: #2DD4BF;
+}
+.albumdetail .list .song .singer {
+  flex: 2;
+}
+.albumdetail .list .song .album {
+  flex: 2;
+}
+.albumdetail .list .song .time {
+  flex: 1;
+}
+.albumdetail .list .song:hover {
+  background-color: #E5E7EB;
+}
+.albumdetail .list .desc {
+  white-space: pre-wrap;
+  line-height: 1.75rem;
+  font-size: 0.75rem;
+  color: #64748B;
+}
+.albumdetail .el-tabs__item.is-active {
+  color: #34D399;
+}
+.albumdetail .el-tabs__nav .el-tabs__active-bar {
+  background-color: #34D399;
+}
+.albumdetail .el-tabs__item:hover {
+  color: #34D399;
+}
+.albumdetail .el-tabs__nav-wrap::after {
+  height: 0;
+}

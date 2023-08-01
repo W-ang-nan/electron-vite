@@ -1,0 +1,3 @@
+provider: generic
+url: https://xwmusic.cloud/auto-updates
+updaterCacheDirName: electron-vite-updater

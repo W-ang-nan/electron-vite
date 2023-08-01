@@ -1,0 +1,148 @@
+.albums {
+  display: flex;
+  flex-wrap: wrap;
+}
+.albums .album {
+  width: 11.5%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  font-size: 0.75rem;
+}
+.albums .album img {
+  width: 100%;
+  border-radius: 10px;
+}
+.mvs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mvs .mv {
+  width: 18%;
+  margin-right: 2%;
+  font-size: 0.75rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 1%;
+  position: relative;
+}
+.mvs .mv img {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+.mvs .mv .icon1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.mvs .mv .icon1 path {
+  fill: #ffffff;
+}
+.mvs .mv .icon1 path:hover {
+  fill: #34d399;
+}
+.mvs .mv:hover {
+  color: #34d399;
+}
+.title {
+  color: #334155;
+}
+.content {
+  white-space: pre-wrap;
+  line-height: 1.75rem;
+  font-size: 0.75rem;
+  color: #64748B;
+}
+.artistdetail {
+  padding: 1% 2%;
+}
+.artistdetail .el-tabs__item.is-active {
+  color: #34d399;
+}
+.artistdetail .el-tabs__nav .el-tabs__active-bar {
+  background-color: #34d399;
+}
+.artistdetail .el-tabs__item:hover {
+  color: #34d399;
+}
+.artistdetail .el-tabs__nav-wrap::after {
+  height: 0;
+}
+.artistdetail .title {
+  display: flex;
+  align-items: center;
+}
+.artistdetail .title .left img {
+  width: 11rem;
+  height: 11rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.artistdetail .title .right {
+  margin-left: 2%;
+  color: #334155;
+}
+.artistdetail .title .right .j {
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.artistdetail .title .right .z {
+  font-size: 0.75rem;
+}
+.artistdetail .title .right .z span {
+  margin-right: 4%;
+}
+.artistdetail .data .tit {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+.artistdetail .data .tit .name {
+  flex: 4;
+}
+.artistdetail .data .tit .album {
+  flex: 2;
+}
+.artistdetail .data .tit .time {
+  flex: 1;
+}
+.artistdetail .data .song {
+  display: flex;
+  font-size: 0.75rem;
+  padding: 1% 0;
+}
+.artistdetail .data .song .name {
+  flex: 4;
+  display: flex;
+}
+.artistdetail .data .song .name .n {
+  flex: 5;
+}
+.artistdetail .data .song .name .icon {
+  flex: 1;
+  margin-right: 5%;
+}
+.artistdetail .data .song .name .icon svg path {
+  fill: #94a3b8;
+}
+.artistdetail .data .song .name .icon svg:hover path {
+  fill: #2dd4bf;
+}
+.artistdetail .data .song .singer {
+  flex: 2;
+}
+.artistdetail .data .song .album {
+  flex: 2;
+}
+.artistdetail .data .song .time {
+  flex: 1;
+}
+.artistdetail .data .song:hover {
+  background-color: #e5e7eb;
+  border-radius: 0.5rem;
+}

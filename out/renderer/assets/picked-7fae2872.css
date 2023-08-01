@@ -1,0 +1,77 @@
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+.sole {
+  padding: 1% 2%;
+}
+.sole .tit {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1%;
+}
+.sole .cent {
+  width: 100%;
+  display: flex;
+}
+.sole .cent .item {
+  flex: 1;
+  padding-right: 1%;
+}
+.sole .cent .item img {
+  width: 100%;
+  border-radius: 4px;
+}
+.sole .cent .item .name {
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.sole .cent .item:last-child {
+  padding: 0;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+.recstations {
+  padding: 1% 2%;
+}
+.recstations .tit {
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1%;
+}
+.recstations .cent {
+  width: 100%;
+  display: flex;
+}
+.recstations .cent .item {
+  flex: 1;
+  padding-right: 1%;
+}
+.recstations .cent .item img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  aspect-ratio: 1/1;
+}
+.recstations .cent .item .name {
+  font-size: 0.75rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.recstations .cent .item:last-child {
+  padding: 0;
+}
